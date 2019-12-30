@@ -1,0 +1,47 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.flex-row{
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.PostSection, .ViewSection {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.PostSection, .ViewSection{
+  flex-basis: 100%;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 1000px) {
+  .PostSection, .ViewSection {
+    flex: 1;
+    margin-bottom: 0; } 
+}
+
+.card {
+  margin-bottom: 2rem;
+}
+
+.texta, .textb {
+  width: 100%
+}
+
+.PostingPaper {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.PostingForm {
+  display: flex;
+  flex-direction: column;
+}
+
